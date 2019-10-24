@@ -31,5 +31,5 @@ app.use('/trainers', trainersRouter);
 
 app.listen(PORT, () => console.log(`listening on port ${PORT}`));
 
-// To start MongoDB, use the following command in terminal:
+// Note: To start MongoDB on your local machine, use the following command line in terminal/shell:
 // mongod --config /usr/local/etc/mongod.conf
