@@ -1,0 +1,17 @@
+{
+  "name": "pauls-crudy-app",
+  "version": "1.0.0",
+  "description": "A VERY basic node.js application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Paul Anthony Meier",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1"
+  }
+}
