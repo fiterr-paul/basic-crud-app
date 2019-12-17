@@ -23,7 +23,7 @@ Source control (or version control) is the practice of tracking and managing cha
 What are the most important aspects of quality software?
 
 ### Answer
-(insert answer here)
+*** insert answer here ***
 
 
 ## Question 3
