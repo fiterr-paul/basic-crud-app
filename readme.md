@@ -1,12 +1,12 @@
-# Paul Meier Portfolio
+# Paul Meier - Assessment Workbook (T3A1)
 
-Documentation for Coder Academy Term 1 Portfolia Project - A website written in HTML/CSS about myself (Paul Meier).
+Workbook for Coder Academy Term 3 MERN Project
 
 
-## Contributors
+## Author
 | [![Paul Meier](/docs/paul-meier-70px-70px.jpg)](https://github.com/fiterr-paul) |
 |-----------|
 | Paul Meier |
 
 
-## Live Website Demonstration
+## Let's Go!
