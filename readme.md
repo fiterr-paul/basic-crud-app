@@ -48,6 +48,69 @@ As stated, the user (client) interacts with the application via the user interfa
 A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
 
 ### Answer
-(insert answer here)
+*** insert answer here ***
+
+
+## Question 5
+With reference to one of your own projects, discuss what knowledge or skills were required to complete your project and to overcome challenges.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 6
+With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project and suggest changes or improvements for future projects of a similar nature.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 7
+Explain control flow, using an example from the JavaScript programming language.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 8
+Explain type coercion, using examples from the JavaScript programming language.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 9
+Explain data types, using examples from the JavaScript programming language.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 10
+Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 11
+Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 12
+Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language.
+
+### Answer
+*** insert answer here ***
+
+
+## Question 13
+For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes.
+
+### Answer
+*** insert answer here ***
 
 
