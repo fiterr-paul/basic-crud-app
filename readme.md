@@ -69,7 +69,17 @@ With reference to one of your own projects, evaluate how effective your knowledg
 Explain control flow, using an example from the JavaScript programming language.
 
 ### Answer
-*** insert answer here ***
+‘Control Flow’ is the order in which a computer executes statements in a script. A script in JavaScript may include several/many control structures such as conditionals, loops and functions.
+
+The below If/Else Statement can change the flow of an application based on if a condition that is passed into the statement is determined to be true or false:
+
+```javascript
+if (condition === true) {
+  return true
+} else {
+  return false
+}
+```
 
 
 ## Question 8
