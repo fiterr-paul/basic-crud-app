@@ -139,7 +139,30 @@ const paulm = {
 Explain how Arrays can be manipulated in JavaScript, using examples from the JavaScript programming language.
 
 ### Answer
-*** insert answer here ***
+An Array is a data structure in which data can be stored, accessed, manipulated/mutated and deleted. To accomplish this in JavaScript, the array needs to be iterated through while using the appropriate array method for the desired outcome.
+
+```javascript
+let fruits = ['apple', 'banana', 'orange', 'pear', 'pineapple'];
+
+// Example 1 – Add data to the array (mutates the original array):
+fruits.push('Kiwi');
+console.log(fruits);
+
+// Example 2 – Delete data from the array (mutates the original array):
+fruits.pop();
+console.log(fruits);
+
+// Example 3 – Access data in the array and log to console:
+fruits.forEach(printArray = (fruit) => {
+  console.log(fruit);
+});
+
+// Example 4 – Creates a new array from the original array (does not mutate the original array):
+const newFruitsArrary = fruits.map(fruit => {
+  return fruit
+});
+console.log(newFruitsArrary);
+```
 
 
 ## Question 11
