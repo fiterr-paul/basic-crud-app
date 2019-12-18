@@ -55,7 +55,12 @@ A team is about to engage in a project, developing a website for a small busines
 With reference to one of your own projects, discuss what knowledge or skills were required to complete your project and to overcome challenges.
 
 ### Answer
-*** insert answer here ***
+A project that I worked on earlier in the course was a web application built with Ruby On Rails. Of course, the biggest aspect of this project was learning the Object Orientated language ‘Ruby’. Being my first programming language also meant that it was my biggest obstacle.
+
+Apart from Ruby, learning Rails was also quite an undertaking and a challenge. Having only ever worked with HTML and CSS, I really found the concepts of OOP difficult and making sense of how it all fit into the Rails Framework.
+
+One concept and technology I believe I had a good handle on was Postgres and SQL relational databases. Having had previous experience with deploying Content Management Systems such as WordPress meant that I have prior knowledge of relational database design and implementation.
+
 
 
 ## Question 6
@@ -228,6 +233,7 @@ const contacts = {
   interests: ["killing", "slashing"]
 }
 const data = JSON.stringify(contacts)
+console.log(data);
 ```
 
 To access data provided in JSON format via an API - or a file that has been “required” into a document, the JSON.parse() function is used.
