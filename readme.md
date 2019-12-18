@@ -17,13 +17,27 @@ __Provide an overview and description of a standard source control process for a
 
 ### Answer
 Source control (or version control) is the practice of tracking and managing changes to code. The codebase is usually stored in a SCM (Source Control Management) system which will help to track and manage code that is uploaded/pushed from multiple sources/developers. The SCM system will help to track code changes, historical changes/revision, different versions of the codebase at different points in the development process and enable collaboration between multiple developers – each with their own versions of the codebase which can later be merged together after detectable conflicts are resolved.
+Developers will typically work on their own forks and branches and commit their code for review by senior developers.
 
 
 ## Question 2
 __What are the most important aspects of quality software?__
 
 ### Answer
-*** insert answer here ***
+Amongst what would be an endless list of aspects that encompasses “quality software”, here is a list of 5 general aspects that would be of high priority when it comes to quality software.
+
+Testing
+Making sure that the software (or components of the software) work as expected.
+
+Scalability
+Is the software engineered to be capable of growing to support the size of its increasing userbase.
+
+Maintainability
+Can the software be easily maintained by its engineers, code refactored and implemented without causing significant interruption to users.
+
+Performance – As the userbase increases, and/or new features implemented, has the software been engineered for maximum speed no matter how large the userbase. Server processing power will also play a role here.
+
+Security – Is the software secure against cyber-attacks and service disruption, information theft and identity theft.
 
 
 ## Question 3
@@ -270,6 +284,39 @@ console.log(newContacts);
 __For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes.__
 
 ### Answer
-*** insert answer here ***
+```javascript
+class Car {  // this is a class that will produce 'Car' objects
+  constructor(brand) {  // the constructor will initialize the new object
+    this.carname = brand;  // this assigns brand to this.carname
+  }
+  present() {  // this is a function named 'present'
+    return 'I have a ' + this.carname;  // the function returns a string concatinated with the carname/brand
+  }
+}
 
+class Model extends Car {  // this class inherits from the Car class
+  constructor(brand, mod) {  // the constructor will initialize a model with a brand and model
+    super(brand);  // this calls the car class
+    this.model = mod;  // this assigns mod to this.model
+  }
+  show() {  // this function will return this.present from Car and concationate it with this.model
+    return this.present() + ', it was made in ' + this.model;
+  }
+}
 
+let makes = ["Ford", "Holden", "Toyota"]  // this is an array containing 3 items
+let models = Array.from(new Array(40), (x,i) => i + 1980)  // this creates an array of numbers representing dates from 1980
+
+function randomIntFromInterval(min,max) { // min and max included
+    return Math.floor(Math.random()*(max-min+1)+min);  // this function returns a random integer between min and max
+}
+
+for (model of models) {
+
+  make = makes[randomIntFromInterval(0,makes.length-1)]  // selects a random integer between 0 and makes.length-1 and uses that as an index to select a random make
+  model = models[randomIntFromInterval(0,makes.length-1)]  // selects a random integer between 0 and makes.length-1 and uses that as an index to select a random model
+    
+  mycar = new Model(make, model);  // create a new Model object stored in the variable 'mycar'
+  console.log(mycar.show())  // logs to the console 'I have a Ford, it was made in 1981' (assuming that Ford and 1981 was randomly chosen)
+}
+```
