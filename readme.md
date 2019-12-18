@@ -66,7 +66,7 @@ With reference to one of your own projects, evaluate how effective your knowledg
 
 
 ## Question 7
-Explain control flow, using an example from the JavaScript programming language.
+Explain Control Flow, using an example from the JavaScript programming language.
 
 ### Answer
 ‘Control Flow’ is the order in which a computer executes statements in a script. A script in JavaScript may include several/many control structures such as conditionals, loops and functions.
@@ -83,10 +83,24 @@ if (condition === true) {
 
 
 ## Question 8
-Explain type coercion, using examples from the JavaScript programming language.
+Explain Type Coercion, using examples from the JavaScript programming language.
 
 ### Answer
-*** insert answer here ***
+‘Type Coercion’ is the process of converting the value from one datatype into a different datatype. There are two different types of ‘Type Coercion’ – Implicit and Explicit.
+
+‘Explicit’ Type Coercion is when type coercion is done on purpose by writing the appropriate code:
+```javascript
+const explicit = String(123)
+console.log(explicit);
+```
+The above example will coerce the number 123 into a string (using the JavaScript built-in String function).
+
+‘Implicit’ Type Coercion is when data types are converted automatically. 
+```javascript
+const implicit = 123 + ''
+console.log(implicit);
+```
+The above example, the Number 123 will be coerced into a String that reads as “123”.
 
 
 ## Question 9
