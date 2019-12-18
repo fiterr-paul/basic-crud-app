@@ -104,21 +104,46 @@ console.log(implicit);
 
 
 ## Question 9
-Explain data types, using examples from the JavaScript programming language.
+Explain Data Types, using examples from the JavaScript programming language.
 
 ### Answer
-*** insert answer here ***
+‘Data Types’ in JavaScript refer to the "type" of data being represented. There are several different types of data in JavaScript.
+
+‘Primitive’ data types include type ‘String’, ‘Number’, ‘Boolean’, ‘Null‘ and ‘Undefined’. These data types are referred to as ‘Primitive’ because their values can contain only a single type (i.e.: a ‘String’ OR a ‘Number’, but NOT both combined).
+
+The follow examples are 'primitive' types of data. Each individual data type can only be assigned to one variable:
+```javascript
+const string = 'string';
+const number = 123;
+const boolean = true;
+let y = null;
+let x = undefined;
+```
+
+A more complex data type in JavaScript would be an ‘Object’.
+Objects are used to store collections of data and more complex entities. An example of a more complex entity might be an Object containing other data structures like an Array and even an Object containing other Objects.
+
+The following example is an Object which contains 5 Key/Value pairs, one if which the value is another Object:
+```javascript
+const paulm = {
+  name: 'paul meier',
+  age: 38,
+  gender: 'male',
+  single: false,
+  spouse: {kathys}
+}
+```
 
 
 ## Question 10
-Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language.
+Explain how Arrays can be manipulated in JavaScript, using examples from the JavaScript programming language.
 
 ### Answer
 *** insert answer here ***
 
 
 ## Question 11
-Explain how objects can be manipulated in JavaScript, using examples from the JavaScript programming language.
+Explain how Objects can be manipulated in JavaScript, using examples from the JavaScript programming language.
 
 ### Answer
 *** insert answer here ***
