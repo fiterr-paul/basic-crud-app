@@ -13,21 +13,21 @@ Workbook for Coder Academy Term 3 MERN Project
 
 
 ## Question 1
-Provide an overview and description of a standard source control process for a large project.
+__Provide an overview and description of a standard source control process for a large project.__
 
 ### Answer
 Source control (or version control) is the practice of tracking and managing changes to code. The codebase is usually stored in a SCM (Source Control Management) system which will help to track and manage code that is uploaded/pushed from multiple sources/developers. The SCM system will help to track code changes, historical changes/revision, different versions of the codebase at different points in the development process and enable collaboration between multiple developers – each with their own versions of the codebase which can later be merged together after detectable conflicts are resolved.
 
 
 ## Question 2
-What are the most important aspects of quality software?
+__What are the most important aspects of quality software?__
 
 ### Answer
 *** insert answer here ***
 
 
 ## Question 3
-Outline a standard high-level structure for a MERN stack application and explain the components.
+__Outline a standard high-level structure for a MERN stack application and explain the components.__
 
 ### Answer
 A MERN stack application is comprised of four main technologies – Mongo, Express, React and Node. 
@@ -45,14 +45,14 @@ As stated, the user (client) interacts with the application via the user interfa
 
 
 ## Question 4
-A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?
+__A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?__
 
 ### Answer
 *** insert answer here ***
 
 
 ## Question 5
-With reference to one of your own projects, discuss what knowledge or skills were required to complete your project and to overcome challenges.
+__With reference to one of your own projects, discuss what knowledge or skills were required to complete your project and to overcome challenges.__
 
 ### Answer
 A project that I worked on earlier in the course was a web application built with Ruby On Rails. Of course, the biggest aspect of this project was learning the Object Orientated language ‘Ruby’. Being my first programming language also meant that it was my biggest obstacle.
@@ -64,14 +64,14 @@ One concept and technology I believe I had a good handle on was Postgres and SQL
 
 
 ## Question 6
-With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project and suggest changes or improvements for future projects of a similar nature.
+__With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project and suggest changes or improvements for future projects of a similar nature.__
 
 ### Answer
 *** insert answer here ***
 
 
 ## Question 7
-Explain Control Flow, using an example from the JavaScript programming language.
+__Explain Control Flow, using an example from the JavaScript programming language.__
 
 ### Answer
 ‘Control Flow’ is the order in which a computer executes statements in a script. A script in JavaScript may include several/many control structures such as conditionals, loops and functions.
@@ -88,7 +88,7 @@ if (condition === true) {
 
 
 ## Question 8
-Explain Type Coercion, using examples from the JavaScript programming language.
+__Explain Type Coercion, using examples from the JavaScript programming language.__
 
 ### Answer
 ‘Type Coercion’ is the process of converting the value from one datatype into a different datatype. There are two different types of ‘Type Coercion’ – Implicit and Explicit.
@@ -109,7 +109,7 @@ console.log(implicit);
 
 
 ## Question 9
-Explain Data Types, using examples from the JavaScript programming language.
+__Explain Data Types, using examples from the JavaScript programming language.__
 
 ### Answer
 ‘Data Types’ in JavaScript refer to the "type" of data being represented. There are several different types of data in JavaScript.
@@ -141,7 +141,7 @@ const paulm = {
 
 
 ## Question 10
-Explain how Arrays can be manipulated in JavaScript, using examples from the JavaScript programming language.
+__Explain how Arrays can be manipulated in JavaScript, using examples from the JavaScript programming language.__
 
 ### Answer
 An Array is a data structure in which data can be stored, accessed, manipulated/mutated and deleted. To accomplish this in JavaScript, the array needs to be iterated through while using the appropriate array method for the desired outcome.
@@ -171,7 +171,7 @@ console.log(newFruitsArrary);
 
 
 ## Question 11
-Explain how Objects can be manipulated in JavaScript, using examples from the JavaScript programming language.
+__Explain how Objects can be manipulated in JavaScript, using examples from the JavaScript programming language.__
 
 ### Answer
 The below Object is referred to as an ‘Object Literal’. This example of a single Object is a data structure made up of key: value pairs. It has 4 properties – name, gender, rank and starship:
@@ -214,7 +214,7 @@ console.log(picard);
 
 
 ## Question 12
-Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language.
+__Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language.__
 
 ### Answer
 JSON (JavaScript Object Notation), is a format in which data can be stored in an organized, easy-to-access manner.
@@ -247,7 +247,7 @@ console.log(newContacts);
 
 
 ## Question 13
-For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes.
+__For the code snippet provided below, write comments for each line of code to explain its functionality. In your comments you must demonstrates your ability to recognise and identify functions, ranges and classes.__
 
 ### Answer
 *** insert answer here ***
