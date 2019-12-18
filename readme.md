@@ -169,7 +169,43 @@ console.log(newFruitsArrary);
 Explain how Objects can be manipulated in JavaScript, using examples from the JavaScript programming language.
 
 ### Answer
-*** insert answer here ***
+The below Object is referred to as an ‘Object Literal’. This example of a single Object is a data structure made up of key: value pairs. It has 4 properties – name, gender, rank and starship:
+```javascript
+const captain = {
+  name: 'james t. kirk',
+  species: 'human',
+  rank: 'captain',
+  starship: 'uss enterprise'
+}
+```
+
+To access the keys/values in this Object and log it to console using string interpolation, I would write the following code:
+```javascript
+const name = captain.name
+const species = captain.species
+const rank = captain['rank']
+const starship = captain['starship']
+
+console.log(`This is ${rank} ${name} of the Federation starship ${starship}. I am ${species}.`);
+```
+
+To create more instances of an Object, a Constructor function is required. Using ES6 syntax, I would do this using the Class function to create more instances of the ‘Captains’ object:
+```javascript
+class Captains {
+  constructor(name, species, rank, starship) {
+    this.name = name;
+    this.species = species;
+    this.rank = rank;
+    this.starship = starship;
+  }
+}
+
+const pike = new Captains('christopher pike', 'human', 'captain', 'uss enterprise', );
+console.log(pike);
+
+const picard = new Captains('jean-luc picard', 'human', 'captain', 'uss enterprise', );
+console.log(picard);
+```
 
 
 ## Question 12
