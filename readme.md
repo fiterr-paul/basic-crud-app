@@ -67,7 +67,15 @@ One concept and technology I believe I had a good handle on was Postgres and SQL
 __With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project and suggest changes or improvements for future projects of a similar nature.__
 
 ### Answer
-*** insert answer here ***
+With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project and suggest changes or improvements for future projects of a similar nature.
+
+One of the very first projects that I worked on during the Gen Tech Bootcamp was the Personal Portfolio website. This was primarily a personal website which was written using only  HTML and CSS.
+
+Having had many years of previous experience working on my own hobby website, I found that I excelled during this project. I received a lot of affirmations that the way I was coding HTML and CSS was indeed how it was supposed to be done by professional developers. I found this to be very rewarding after spending many years learning by myself.
+
+One improvement I have made – and definitely something I have changed – is that I now code SCSS and strict HTML5. I find this to be much more efficient than using older HTML syntax and plain css.
+
+Another improvement I have made is the addition of using more JavaScript in the client browser for small things that I previously had tried to do with CSS. I have been able to make my static websites much more visually dynamic.
 
 
 ## Question 7
