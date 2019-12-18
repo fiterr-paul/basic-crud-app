@@ -212,7 +212,32 @@ console.log(picard);
 Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language.
 
 ### Answer
-*** insert answer here ***
+JSON (JavaScript Object Notation), is a format in which data can be stored in an organized, easy-to-access manner.
+
+The JSON.stringify() function converts a JavaScript Object into a JSON string. This is useful for when the data needs to be available via API to be accessible by other servers/clients.
+
+In the below example, the “JSON.stringify()” function is used on a JavaScript Object to convert it to a JSON string, then stored in a variable:
+```javascript
+const contacts = {
+  name: "freddy kruger",
+  age: 38,
+  address: {
+    street: "1 elm street",
+    city: "hell"
+  },
+  interests: ["killing", "slashing"]
+}
+const data = JSON.stringify(contacts)
+```
+
+To access data provided in JSON format via an API - or a file that has been “required” into a document, the JSON.parse() function is used.
+In effect, this is the reverse process, in that a JSON String is now being converted into a JSON Object.
+
+In this example, the JSON String (stored in the variable 'data') is now being parsed back into an Object:
+```javascript
+const newContacts = JSON.parse(data);
+console.log(newContacts);
+```
 
 
 ## Question 13
