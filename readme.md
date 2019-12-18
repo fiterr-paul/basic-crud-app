@@ -88,19 +88,19 @@ Explain Type Coercion, using examples from the JavaScript programming language.
 ### Answer
 ‘Type Coercion’ is the process of converting the value from one datatype into a different datatype. There are two different types of ‘Type Coercion’ – Implicit and Explicit.
 
-‘Explicit’ Type Coercion is when type coercion is done on purpose by writing the appropriate code:
+‘Explicit’ Type Coercion is when type coercion is done on purpose by writing the appropriate code.
+The following example will coerce the number 123 into a string (using the JavaScript built-in String function):
 ```javascript
 const explicit = String(123)
 console.log(explicit);
 ```
-The above example will coerce the number 123 into a string (using the JavaScript built-in String function).
 
-‘Implicit’ Type Coercion is when data types are converted automatically. 
+‘Implicit’ Type Coercion is when data types are converted automatically.
+In the following example, the Number 123 will be coerced into a String that reads as “123”.
 ```javascript
 const implicit = 123 + ''
 console.log(implicit);
 ```
-The above example, the Number 123 will be coerced into a String that reads as “123”.
 
 
 ## Question 9
