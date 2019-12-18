@@ -26,18 +26,20 @@ __What are the most important aspects of quality software?__
 ### Answer
 Amongst what would be an endless list of aspects that encompasses “quality software”, here is a list of 5 general aspects that would be of high priority when it comes to quality software.
 
-Testing
+__Testing__<br />
 Making sure that the software (or components of the software) work as expected.
 
-Scalability
+__Scalability__<br />
 Is the software engineered to be capable of growing to support the size of its increasing userbase.
 
-Maintainability
+__Maintainability__<br />
 Can the software be easily maintained by its engineers, code refactored and implemented without causing significant interruption to users.
 
-Performance – As the userbase increases, and/or new features implemented, has the software been engineered for maximum speed no matter how large the userbase. Server processing power will also play a role here.
+__Performance__<br />
+As the userbase increases, and/or new features implemented, has the software been engineered for maximum speed no matter how large the userbase. Server processing power will also play a role here.
 
-Security – Is the software secure against cyber-attacks and service disruption, information theft and identity theft.
+__Security__<br />
+Is the software secure against cyber-attacks and service disruption, information theft and identity theft.
 
 
 ## Question 3
