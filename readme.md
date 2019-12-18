@@ -48,7 +48,19 @@ As stated, the user (client) interacts with the application via the user interfa
 __A team is about to engage in a project, developing a website for a small business. What knowledge and skills would they need in order to develop the project?__
 
 ### Answer
-*** insert answer here ***
+Firstly, the dev team (or project manager or business analyst) would need to meet with the client in order to assess the business requirements of the website or web application.
+
+This would help determine what technologies need to be used to develop a website or application so that it would meet the businesses requirements - now and also perhaps into the future (referring to future scalability).
+
+Depending on what the website or web application requirements are – a static website could easily be done with HTML, CSS and JavaScript, perhaps even using a Framework/Library such as React.
+
+If a web application is required, full knowledge of MERN stack  or similar server-side / client-side application design would be required.
+The team would need to produce technical documentation such as ERD charts, User-flow diagrams as well as UI and UX designs wireframes and low or high-fidelity designs.
+
+Working as a team, a Source Control Process and Source Control Management solution would need to be implemented so as to keep the development process and codebase managed.
+
+Also, depending on the size/scope of the project, the team would also need to determine what development methodology to be suitable for the project.
+A smaller project might benefit more from ‘Rapid Application Development’ methodology as opposed to a ‘DevOps Deployment’ methodology.
 
 
 ## Question 5
@@ -69,11 +81,11 @@ __With reference to one of your own projects, evaluate how effective your knowle
 ### Answer
 With reference to one of your own projects, evaluate how effective your knowledge and skills were for this project and suggest changes or improvements for future projects of a similar nature.
 
-One of the very first projects that I worked on during the Gen Tech Bootcamp was the Personal Portfolio website. This was primarily a personal website which was written using only  HTML and CSS.
+One of the very first projects that I worked on during the Gen Tech Bootcamp was the Personal Portfolio website. This was primarily a personal website which was written using only HTML and CSS.
 
 Having had many years of previous experience working on my own hobby website, I found that I excelled during this project. I received a lot of affirmations that the way I was coding HTML and CSS was indeed how it was supposed to be done by professional developers. I found this to be very rewarding after spending many years learning by myself.
 
-One improvement I have made – and definitely something I have changed – is that I now code SCSS and strict HTML5. I find this to be much more efficient than using older HTML syntax and plain css.
+One improvement I have made – and definitely something I have changed – is that I now code SCSS and strict HTML5. I find this to be much more efficient than using older HTML syntax and plain CSS.
 
 Another improvement I have made is the addition of using more JavaScript in the client browser for small things that I previously had tried to do with CSS. I have been able to make my static websites much more visually dynamic.
 
